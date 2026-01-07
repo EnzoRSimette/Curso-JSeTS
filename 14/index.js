@@ -1,0 +1,1 @@
+const v1 = 10; // Const não muda o valor da variável, não podemos declarar duas vezes
