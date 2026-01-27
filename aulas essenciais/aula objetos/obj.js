@@ -31,3 +31,28 @@ const pessoa_obj_literal = {
     nome: 'LUIZ',
     sobrenome: 'OTÁVIO'
 };
+
+//todo $$$$$$$$$$$$$$$$$$$$$$$$$$
+//todo $ ESTRUTURA DE DADOS MAP $
+//todo $$$$$$$$$$$$$$$$$$$$$$$$$$
+
+const pessoas = [
+    {
+        id: 3,
+        nome: 'Luiz'
+    },
+    {
+        id: 2,
+        nome: 'Maria'
+    },
+    {
+        id:1,
+        nome: 'Luiz'
+    }
+]
+
+const novasPessoas = new Map();
+for (const pessoa of pessoas) {
+    const { id } = pessoa;
+    novasPessoas.set(id, { ...pessoa }); // MANTEM A ORDEM IGUAL
+}
