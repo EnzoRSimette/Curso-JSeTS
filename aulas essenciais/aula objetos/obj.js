@@ -20,3 +20,14 @@ function criapessoa(nome, sobrenome, idade) {
 }
 const pessoa2 = criapessoa('luiz', 'otávio', 25);
 console.log(pessoa2)
+
+// ----------------------------------------------------------- // ------------------------------------------------------------
+
+// ==================
+// = OBJETO LITERAL =
+// ==================
+
+const pessoa_obj_literal = {
+    nome: 'LUIZ',
+    sobrenome: 'OTÁVIO'
+};
